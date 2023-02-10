@@ -1,4 +1,4 @@
-import './App.css'
+import './styles/global.css'
 import {Habit} from "./components/Habit";
 
 function App() {
@@ -6,11 +6,9 @@ function App() {
       <div>
           <h1>Hello world</h1>
 
-          <Habit />
-          <Habit />
-          <Habit />
-          <Habit />
-          <Habit />
+          <Habit completed={3}/>
+          <Habit completed={5}/>
+          <Habit completed={20}/>
       </div>
   )
 }
